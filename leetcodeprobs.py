@@ -1,10 +1,5 @@
-nums1 = [1,2,3,0,0,0]
-nums2 = [2,5,6]
-m = 3
-n = 3
-class solutions(object):
-    def merge(self,num1, nums2, m, n):
-        for i in range(object):
-            self.append([num1])
-
-
+nums = [2,7,11,15]
+target = 9
+class solution(sum):
+    def twosum(self, nums, target):
+        for 
