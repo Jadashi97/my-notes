@@ -1,4 +1,4 @@
-#exam1
+'''#exam1
 a = 3 
 b = 4 
 c = [a, b]
@@ -62,3 +62,17 @@ p = u[-1:-5:-1]
 o = u[::3]
 for i in range(len(o)):
     print(p[i], o[i])
+
+
+#Q11
+inval = int(input('Put a number: '))
+if inval>= 2 and inval <= 5:
+    z = [1,3,5,7,9,2,4,6,8,10]
+    for i in range(len(z)):
+        if i % inval == 0:
+            print(f"{i} is divisible by the inval")
+        else:
+            print('You did not enter a number divisible by inval')      
+else:
+    print('You did not enter a number btn 2 and 5')
+'''

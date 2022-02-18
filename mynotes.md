@@ -8,6 +8,7 @@
 # main focus
 - free type typing daily 
 - freecodecampacademy
+- work on datafiles
 
 # projects
 - finish saylor tutorials 
