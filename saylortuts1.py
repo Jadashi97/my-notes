@@ -69,10 +69,38 @@ inval = int(input('Put a number: '))
 if inval>= 2 and inval <= 5:
     z = [1,3,5,7,9,2,4,6,8,10]
     for i in range(len(z)):
-        if i % inval == 0:
+        if z[i] % inval == 0:
             print(f"{i} is divisible by the inval")
         else:
             print('You did not enter a number divisible by inval')      
 else:
     print('You did not enter a number btn 2 and 5')
+
+#Q12
+z = ['lokose', 'lemi']
+name = input(str('Put your name: '))
+flag = 0
+for i in z:
+    if i == z:
+        print(f'{name}, found it.')
+        flag = 1
+if (flag == 0):
+    print(f'{name}, is not there')
+
+#Q13
+z = [1,2,3,4,5,6,7,8]
+inval = float(input('Enter a number: '))
+sum = 0
+for i in z:
+    if i > inval:
+        sum+=i 
+print(f'Sum of the numbers in the list greater than {inval}, =, {sum}')
+
+#14
+nstrings = 4
+l = [ ]
+message = input('type a message: ') 
+for i in range(nstrings):
+    l.append(input(message))
+print(l)
 '''
