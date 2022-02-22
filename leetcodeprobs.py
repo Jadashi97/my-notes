@@ -1,4 +1,4 @@
-
+'''
 #HW1
 nums = [2,7,11,15]
 target = 9
@@ -25,3 +25,39 @@ def containsDuplicate(nums):
 
 print(containsDuplicate(nums))
 
+#reversing strings
+#1
+s = [ "h","e","l","l","o"]
+s.reverse()
+print(s)
+
+#2
+s = ["H","a","n","n","a","h"]
+s.reverse()
+print(s)
+
+#working on classes and functions
+#Qa
+class Car:
+    def __init__(self, speed, color):
+        self.speed = speed 
+        self.color = color
+        print(speed)
+        print(color)
+        print('the __init__ is called')
+
+ford = Car(200, 'red')
+honda = Car(180, 'purple')
+audi = Car(230, 'maroon')
+
+class Area:
+    def __init__(self,height, width):
+        print(height)
+        print(width)
+        self.height = height
+        self.width = width
+rect1 = Area(20,40)
+rect2 = Area(30, 50)
+print(rect1.height * rect1.width)
+print(rect2.height * rect2.width)
+'''  

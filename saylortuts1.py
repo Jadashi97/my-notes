@@ -89,7 +89,7 @@ if (flag == 0):
 
 #Q13
 z = [1,2,3,4,5,6,7,8]
-inval = float(input('Enter a number: '))
+inval ='Enter a number: '
 sum = 0
 for i in z:
     if i > inval:
@@ -103,4 +103,37 @@ message = input('type a message: ')
 for i in range(nstrings):
     l.append(input(message))
 print(l)
+
+#15
+nvals = 7
+message = 'choose number: '
+x = [ ]
+for i in range(nvals):
+    x.append(float(input(message)))
+maxval = x[0]
+for i in range(1, len(x)):
+    if x[i]>maxval:
+        maxval = x[i]
+print('Maximum value = ', maxval)
+
+#16
+nvals = 4 
+message = 'input a number: '
+
+a = [ ]
+for i in range(nvals):
+    a.append(float(input(message)))
+print('The list =', a)
+
+b = [7, 0, -3, 8]
+c = [ ]
+for i in range(nvals):
+    c.append(a[i] + b[i])
+print('The element-by-element list addition =', c)
 '''
+
+
+
+
+
+

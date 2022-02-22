@@ -14,4 +14,3 @@
 - finish saylor tutorials 
 - data analysis on pythonprogramming.net
 - xcode app 
-i
