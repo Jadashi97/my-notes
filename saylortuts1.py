@@ -130,10 +130,25 @@ c = [ ]
 for i in range(nvals):
     c.append(a[i] + b[i])
 print('The element-by-element list addition =', c)
+
+#Q17 
+nvals = 8 
+message = 'Input a number: '
+a = [ ]
+for i in range(nvals):
+    a.append(float(input(message)))
+print('The list =', a)
+b = a[::2]
+print(b)
+
+#Q18
+nvals = 8
+message = 'Input a number: '
+a = [ ]
+for i in range(nvals):
+    a.append(float(input('message: ')))
+print('The list =', a)
+b = a[-1::-1]
+print(b)
 '''
-
-
-
-
-
 
