@@ -1,6 +1,4 @@
 #working on regular expressions
-
-import re
 '''
 #1
 personList = ['Julia', 'Francis Drake', 'Michael Mason', 'jennifer Johnson', 'John Williams', 'Susanne Walker', 'Kermit the Frog', 'Dr.Melissa Franklin', 'Papa John', ' Walter John Miller', 'Franklin Michael Robertson', 'Richard Robertson', 'Erik D. White', 'Vincent van Gogh', 'Dr. Dr. Matthew Malone', 'Rebecca Clark']
@@ -43,4 +41,34 @@ f = open(' str_data.txt', 'r')
 for str_match in re.finditer('a((a+)|(b+))', f.read()):
     print(str_match.start(), str_match.end())
 f.close()
+
+#10 not sure what to do here.
+str_data = 'abbaabbba'
+
+for i in re.finditer('a((a+)|(b+))', str_data):
+    print(str_data.start(), str_data.end())
+
+#11 not sure 
+import re
+kose = "ccdadababdd"
+
+def locate(kose):
+    for kose in 'a.*b':
+        regex = re.compile(kose)
+        if regex.search(kose) != None:
+            return True
+        return False
+
+print(locate(kose))
+
+#12
+import re
+nums = 'gggabcabcabceeee'
+def findnum(nums):
+    for i in nums:
+        if re.search('[a-b]d.', nums):
+            return True
+        else:
+            return False
+print(findnum(nums))
 '''

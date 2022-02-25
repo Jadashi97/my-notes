@@ -36,6 +36,10 @@ s = ["H","a","n","n","a","h"]
 s.reverse()
 print(s)
 
+#3
+x = [-2^32, 2^32, -1]
+print(x[-1:-1])
+
 #working on classes and functions
 #Qa
 class Car:
@@ -60,5 +64,28 @@ rect1 = Area(20,40)
 rect2 = Area(30, 50)
 print(rect1.height * rect1.width)
 print(rect2.height * rect2.width)
+
+# not sure consult
+List = [1,1,2]
+
+class Solution:
+     def removeDuplicates(self, nums: List[int]) -> int:
+        k = 0
+        for i in range(len(nums)):
+            if nums[k] == nums[i]:
+                k.pop()
+            else:
+                nums[k+1] = nums[i]
+        return k+1 
+
+# 1st unique character string
+s = "leetcode"
+
+def find_chr(s):
+    for e in s:
+        if e == 1:
+            return s.index()
+        else:
+            -1
+print(find_chr(s))
 '''
- 
