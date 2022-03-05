@@ -64,12 +64,12 @@ rect1 = Area(20,40)
 rect2 = Area(30, 50)
 print(rect1.height * rect1.width)
 print(rect2.height * rect2.width)
-
+'''
 # not sure consult
 List = [1,1,2]
 
 class Solution:
-     def removeDuplicates(self, nums: List[int]) -> int:
+     def removeDuplicates(self, nums):
         k = 0
         for i in range(len(nums)):
             if nums[k] == nums[i]:
@@ -77,7 +77,7 @@ class Solution:
             else:
                 nums[k+1] = nums[i]
         return k+1 
-
+'''
 # 1st unique character string
 s = "leetcode"
 

@@ -16,3 +16,17 @@
 # Videos
 - watch commandline vids
 - 
+# using git and github
+- git init 
+- .git = 
+- git status
+- git add . 
+- git commit -m" " 
+- git push
+- git ignore
+- git 
+- git log =
+- git log --online
+- git checkout
+- 
+- 
