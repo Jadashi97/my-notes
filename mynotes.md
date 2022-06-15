@@ -1,32 +1,22 @@
 # reminders.
 - pushing stuff on github on daily basis
-- practice on leetcode practice problems 
-- practice on saylor academy (work on unit 4)
+- practice on leetcode practice problems 1 problem each day *
+- practice on saylor academy
 - study on lagu's page 
 
 # main focus
 - free type typing daily 
-- freecodecampacademy
+- free code camp tutotials **
+- learning something new everyday ***
+- 
 - work on datafiles
+- Daily projects *****
 
 # projects
 - finish saylor tutorials 
 - data analysis on pythonprogramming.net
 - 
 # Videos
-- watch commandline vids
-- 
-# using git and github
-- git init 
-- .git = 
-- git status
-- git add . 
-- git commit -m" " 
-- git push
-- git ignore
-- git 
-- git log =
-- git log --online
-- git checkout
-- 
+- udemy tutorial
+- watch commandline tutorials 
 - 
